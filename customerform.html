@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GAMINGLAB</title>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="styles.css">
+ <link rel="icon" type="image/x-icon" href="1685729056.ico">
+</head>
+    <style>
+        h1 {
+            background-color: lightgray;
+            color: crimson;
+            text-shadow: 3px 3px 3px #666;
+            box-shadow: 5px 5px 5px #828282;
+            border-radius: 15px;
+            border: 3px ridge #330000
+            
+        }
+        
+        h2 {
+            color: crimson
+        }
+        h3 {
+            color: crimson
+        }
+        h1, h2, h3 {font-family: fantasy}
+    </style>
+<header>
+    <h1>Welcome to the Gaming Lab</h1>
+
+</header>
+    <center><h2>Make your reservation with us today!</h2></center>
+    <div id="mySidenav" class="sidenav">
+    <ul>
+        <li>   <a href="index.html">Home</a></li>
+        <li> <a href="resources.html">Links</a></li>
+        <li> <a href=pictures.html>Images</a></li>
+        <li> <a href="contactus.html">Contact Us</a></li>
+        <li> <a href="contactus.html">Reservations</a></li>
+   </ul>
+    </div>
+    
+    <div id="mainContent" class="content">
+<main>
+    <form autocomplete="on" name="reservation" id="reservation" method="post" action="mailto:julio.ortegajr1117@gmail.com"></form>
+    Email: <input type="text" name="email" id="email" required><br><br>
+   First Name: <input type="text" name="First Name" id="firstname" required><br><br>
+    Last Name: <input type="text" name="Last Name" id="lastname"><br><br>
+    Phone #: <input type="text" name="Phone#" id="phone"><br><br>
+    
+    <select size="1" name="event" id="event">
+        <option>Select Event Type</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Party">Party</option>
+        <option value="For Fun">For Fun</option>
+        <option value="Gaming Practice">Gaming Practice</option>
+    </select><br><br>
+    
+     
+    What Consoles will you be using?: <br>
+    <input type="checkbox" name="xbox" id="xbox" value="yes">Xbox<br>
+    <input type="checkbox" name="ps" id="ps" value="yes">PlayStation<br>
+    <input type="checkbox" name="switch" id="switch" value="yes">Switch<br>
+    <input type="checkbox" name="pc" id="pc" value="yes">PC<br><br>
+    
+    Choose a Time:<br>
+    <input type="radio" name="time" id="am" value="am"> AM(6-11)<br>
+    <input type="radio" name="time" id="noon" value="noon"> NOON(11-4)<br>
+    <input type="radio" name="time" id="pm" value="pm"> PM(4-11)<br><br>
+    
+    Any additional information we should know to enhance your reservation experience!:<br><br>
+    <textarea name="comments" id="comments" cols="40" rows="2"></textarea><br><br>
+    
+    <input type="submit" name="Submit" id="submit" value="Reserve Now!">
+     <input type="reset" value="Start Over :("><br><br>
+    
+    
+    
+        </main>
+    </div>
+
+    
+    
+    <div id="footContent" class="Footer">
+    <footer>
+        <p>&#169 <em>The Gaming Lab. </em>
+    For more information contact us at 
+    <a href>julio.ortegajr1117@gmail.com>Email Us</a>
+    </p>
+    </footer>
+        </div>
+
+
+</html>

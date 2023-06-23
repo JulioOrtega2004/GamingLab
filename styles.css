@@ -53,6 +53,8 @@ ul
   display:block;
   background-color: transparent;
   border: 10px solid transparent;
+    position: absolute;
+    height: 5em
 }
    
 .borderone{
@@ -65,4 +67,24 @@ ul
     left: 550px
     
     
+}
+
+.table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid
+    
+}
+td, th {
+    border-style: none;
+    padding: 0.5em
+    
+}
+
+.altrow{
+    background-color: antiquewhite
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
 }

@@ -1,0 +1,68 @@
+/*This is the title box*/
+body 
+{
+    background-attachment: scroll;
+    background-color: darkgray;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: fixed
+}
+
+nav {float: left; width: 100px; vertical-align: middle}
+a:link {color: #FEF6C2}
+a:hover {text-decoration: none; color: #CC9933}
+a:visited {color: black}
+nav ul {padding-left: 10px:}
+li {height: 30px;
+    line-height: 30ox}
+ul
+{
+    list-style-image: url(controller.gif);
+    height: 2px;
+    width: 2px
+}
+
+.sidenav 
+{
+  height: 100%; 
+  width: 200px; 
+  position: fixed; 
+  background-color: #111; 
+    margin: 20px;
+    border: 20px;
+  padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: crimson}
+
+.content 
+{
+      width:2000px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 10px solid transparent;
+  margin-right: 10px;
+  margin-bottom: 40px  
+}
+
+.Footer 
+{
+      width:2000px;
+  text-align:center;
+  display:block;
+  background-color: transparent;
+  border: 10px solid transparent;
+}
+   
+.borderone{
+    position: relative;
+    left: 10px
+}
+
+.bordertwo{
+    position: relative;
+    left: 550px
+    
+    
+}
